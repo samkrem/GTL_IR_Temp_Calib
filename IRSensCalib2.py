@@ -1,17 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed May 17 14:08:22 2023
-
-@author: David Cuadrado
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 24 11:23:56 2023
-
-@author: David Cuadrado
-"""
-
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
@@ -172,16 +159,7 @@ def main():
           
         temperature3=sample2[2]
         tc3Points[:len1-1] = tc3Points[1:len1]
-        tc3Points[len1-1] = temperature3
-
-
-    
-        
-
-        
-
-        
-
+        tc3Points[len1-1] = temperature3 
       
         for i in range(len3):
             try:
@@ -192,12 +170,9 @@ def main():
             except ZeroDivisionError:
                 slope1[i]=0
                 slope2[i]=0
-
-        
+  
         timePXI[:len1-1] = timePXI[1:len1]
-        timePXI[len1-1] = time.time() - t0
-        
-
+        timePXI[len1-1] = time.time() - t0  
         
         if timePXI[len1-1] > 80:
             c = 1
