@@ -1,4 +1,4 @@
-# MIT Gas Turbine Lab Infared Temperature Sensor Calibration and Experiment 
+# **MIT Gas Turbine Lab Infared Temperature Sensor Calibration and Experiment**
 
 ## Main Objective: Calibrating a Raytek MI3-M infared temperature sensor for analysis of an electrified 1 megawatt motor generator.
 ## Primary contributions: 
