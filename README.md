@@ -12,5 +12,6 @@
   <image width="50%" src="https://github.com/samkrem/GTL_IR_Temp_Calib/blob/main/images/Chamber.jpg"></image>
 * Calibrated ten sensing heads and ten sensor communication boxes using temperatures ranging from 22°C to 180°C.
 * Conducted series of experiments analyzing effect of different ambient temperatures using chamber, heaters, and sensing head.
+
   <image width="50%" src="https://github.com/samkrem/GTL_IR_Temp_Calib/blob/main/images/GUI.png"></image>
 * Presented final results to Gas Turbine Lab
